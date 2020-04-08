@@ -45,7 +45,7 @@ sleep 5
 echo -e "\033[0m\033[32Now we will download your kernel. Wait."
 tput sgr0
 sleep 5
-git clone $kernel
+git clone $kernel kernel
 echo -e "\033[0m\033[31Done."
 tput sgr0
 echo -e "\033[0m\033[32m"
